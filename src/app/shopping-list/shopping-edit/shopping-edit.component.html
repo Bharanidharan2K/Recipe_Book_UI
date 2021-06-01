@@ -1,0 +1,22 @@
+<div class="row">
+    <form action="#">
+        <div class="row">
+            <div class="col-sm-5 form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" #inputName class="form-control">
+            </div>
+            <div class="col-sm-2 form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" #inputAmount class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-success" (click)="onClickAdd()">Add</button>&nbsp;
+                <button type="button" class="btn btn-danger">Delete</button>&nbsp;
+                <button type="button" class="btn btn-primary">Clear</button>&nbsp;
+            </div>
+        </div>
+    </form>
+</div>
